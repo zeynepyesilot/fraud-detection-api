@@ -67,4 +67,3 @@ def preprocess_pipeline(data_path: str = DATA_PATH):
     X_train, X_test, y_train, y_test = split_data(df)
     X_train, y_train = apply_smote(X_train, y_train)
     return X_train, X_test, y_train, y_test, scaler
-
