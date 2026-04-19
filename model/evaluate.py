@@ -37,4 +37,3 @@ def _print_report(metrics: dict, y_test, y_pred) -> None:
     print(f"  TN={cm[0][0]:>7,}  FP={cm[0][1]:>7,}")
     print(f"  FN={cm[1][0]:>7,}  TP={cm[1][1]:>7,}")
     print(f"\n{classification_report(y_test, y_pred, target_names=['Legitimate', 'Fraud'])}")
-
