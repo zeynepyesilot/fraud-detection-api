@@ -52,4 +52,3 @@ class ModelService:
 
 
 model_service = ModelService()
-
