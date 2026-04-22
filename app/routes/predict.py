@@ -32,4 +32,3 @@ async def health_check():
         "model_version": settings.APP_VERSION,
     }
 
-
