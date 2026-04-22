@@ -48,4 +48,4 @@ async def root():
         "health": "/health",
     }
 
-
+# todo: add cors
