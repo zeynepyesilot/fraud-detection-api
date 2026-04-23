@@ -121,4 +121,3 @@ API: FastAPI + Uvicorn
 Validation: Pydantic v2
 Serialization: joblib
 Container: Docker, Docker Compose
-
